@@ -1,0 +1,67 @@
+.valentine-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/* Custom class for Yes button styles */
+.yes-button {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #5CD36B; /* bg-green-500 */
+  color: #fff; /* text-white */
+  font-weight: bold; /* font-bold */
+  padding: 8px 16px; /* py-2 px-4 */
+  border-radius: 8px; /* rounded */
+  margin-right: 8px; /* mr-4 */
+}
+
+.yes-button:hover {
+  background-color: #44c655; /* hover:bg-green-700 */
+}
+
+/* Custom class for No button styles */
+.no-button {
+  background-color: #E04948; /* bg-red-500 */
+  color: #fff; /* text-white */
+  font-weight: bold; /* font-bold */
+  padding: 8px 16px; /* py-2 px-4 */
+  border-radius: 8px; /* rounded */
+}
+
+.no-button:hover {
+  background-color: #da3a39; /* hover:bg-red-700 */
+}
+/* Custom class for text-4xl my-4 container */
+.text-container {
+  font-size: 2.25rem; /* Equivalent to text-4xl in tailwindcss */
+  margin-top: 1rem; /* Equivalent to my-4 in tailwindcss */
+  margin-bottom: 1rem; /* Equivalent to my-4 in tailwindcss */
+}
+
+.centered-container {
+  display: flex;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  flex-direction: column;
+  justify-content: right;
+  height: 100vh;
+  margin: 0;
+}
+
+.buttons {
+   text-align: center;
+}
+
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust the font size of text-container for smaller screens */
+  .text-container {
+    font-size: 1.5rem;
+  }
+
+  /* Adjust button padding for even smaller screens */
+  .yes-button, .no-button {
+    padding: 6px 10px; /* Further reduce padding for smaller screens */
+  }
+}
