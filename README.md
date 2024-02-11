@@ -20,3 +20,23 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Local run
+
+```shell
+npm install
+npm run dev
+```
+
+To build
+```shell
+npm run build
+```
+
+## Free Deploy
+
+This is the good, easy, free way to deploy this app, and share it with your loved one.
+
+https://medium.com/swlh/how-to-build-and-deploy-a-react-website-with-custom-domain-in-10-minutes-17d953d2a715
+
+Enjoy!!~
