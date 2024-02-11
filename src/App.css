@@ -65,3 +65,7 @@
     padding: 6px 10px; /* Further reduce padding for smaller screens */
   }
 }
+
+button {
+  border: none;
+}
